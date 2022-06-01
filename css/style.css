@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.contact{
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    background: grey;
+}
+
+.contact__form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.contact__title{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact__name__label{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+.contact__input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contact__input::placeholder{
+    color: rgba(0, 0, 0, 0.349);
+    font-weight: 600px;
+    font-style: italic;
+}
+
+.contact__surname{
+    margin-top: 10px;
+}
+
+.contact__submenu{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
+.contact__checkbox{
+    margin-right: 5px;
+}
+
+
+.contact__payment{
+    margin-top: 30px;
+}
+
+#selection{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    width: 150px;
+}
+
+
+.contact__btn{
+    margin: 0 auto;
+    padding: 10px 5px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 255, 0.45);
+    color: white;
+}
